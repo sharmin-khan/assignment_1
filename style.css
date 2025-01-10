@@ -37,7 +37,8 @@ nav {
 }
 
 .logo,
-.color_1 {
+.color_1,
+.news_title {
     font-size: 40px;
     font-weight: bold;
 }
@@ -90,7 +91,9 @@ nav {
 }
 
 .future_content,
-.card_description {
+.card_description,
+.news_description,
+.news_content {
     margin: 32px 0;
     font-size: 16px;
     font-weight: 400;
@@ -149,4 +152,48 @@ nav {
 
 .btn3 {
     background-color: #FFC239;
+}
+
+/* news section styles */
+
+.news_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news_box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.news_img img {
+    border-radius: 25px;
+    margin: 48px 32px 48px 48px;
+}
+
+.news_details {
+    margin: 48px 32px 48px 0;
+}
+
+.news_headline {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.channel {
+    padding: 12px 0 0 0;
+}
+
+time {
+    font-size: 15px;
+    font-weight: 400;
+    opacity: .6;
+
+}
+
+.news_column {
+    margin-left: 48px;
 }
