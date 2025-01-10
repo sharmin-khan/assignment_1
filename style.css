@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    background-color: #F1F1F3;
+    height: 100vh;
+    width: 100%;
+    padding: 0 130px;
+}
+
+.color_1 {
+    color: #0E0E0E;
+}
+
+.btn_primary {
+    color: #006A50;
+    border: 2px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.logo,
+.color_1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* main section style */
+.hero {
+    background-color: #C6E4D6;
+    border-radius: 10px;
+}
+
+.hero_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 30px;
+
+}
+
+.hero_description {
+    padding: 50px 0;
+}
+
+.hero_subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    opacity: .6;
+
+}
+
+.hero_title {
+    font-size: 55px;
+    font-weight: bold;
+    padding: 16px 20px 16px 0;
+
+}
+
+.hero_btn {
+    background-color: #006A50;
+    color: #F1F1F3;
+}
+
+/* future section styles */
+.future {
+    padding: 80px 0;
+}
+
+.future_title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.future_content,
+.card_description {
+    margin: 32px 0;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .6;
+    line-height: 23px;
+
+}
+
+.future_cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.future_card1 {
+    background-color: #a4bae0;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.future_card2 {
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.future_card3 {
+    background-color: #F7EBCF;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.card_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px 0;
+}
+
+.card_btn {
+    padding: 11px 20px;
+    border-radius: 10px;
+    color: #F1F1F3;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.btn1 {
+    background-color: #5490F5;
+}
+
+.btn2 {
+    background-color: #09A15C;
+}
+
+.btn3 {
+    background-color: #FFC239;
+}
