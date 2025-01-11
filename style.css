@@ -62,6 +62,20 @@ nav {
     font-weight: bold;
 }
 
+.future_content,
+.card_description,
+.news_description,
+.news_content,
+.donate_content,
+.subscribe_content {
+    margin: 32px 0;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .6;
+    line-height: 23px;
+
+}
+
 /* main section style */
 .hero {
     background-color: #C6E4D6;
@@ -107,20 +121,6 @@ nav {
 .future_title {
     font-size: 40px;
     font-weight: bold;
-}
-
-.future_content,
-.card_description,
-.news_description,
-.news_content,
-.donate_content,
-.subscribe_content {
-    margin: 32px 0;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: .6;
-    line-height: 23px;
-
 }
 
 .future_cards {
@@ -189,19 +189,22 @@ nav {
     background: #5d4102;
     color: #f9d47c;
 }
-.blog_quote{
+
+.blog_quote {
     background-color: #ffffff;
-    padding:24px;
+    padding: 24px;
     margin-top: 32px;
     border-radius: 10px;
     border: 1px solid #cac7ff;
 }
-.blog_detail{
+
+.blog_detail {
     background-image: url("assets/quote-bg.png");
     background-repeat: no-repeat;
     padding: 24px 0;
 }
-.blog_content{
+
+.blog_content {
     font-size: 16px;
     font-weight: 400;
     color: #0E0E0E;
@@ -209,19 +212,22 @@ nav {
     line-height: 23px;
 
 }
-.name{
+
+.name {
     font-size: 18px;
     font-weight: 600;
     color: #0E0E0E;
     opacity: .8;
     margin: 12px 0;
 }
-.designation{
+
+.designation {
     font-size: 15px;
     font-weight: 400;
     color: #0E0E0E;
     opacity: .6;
 }
+
 /* news section styles */
 
 .news_container {
@@ -261,7 +267,8 @@ time {
     opacity: .6;
 
 }
-span{
+
+span {
     margin-left: 10px;
 }
 
@@ -339,7 +346,7 @@ table {
     width: 100%;
 }
 
-.table_input{
+.table_input {
     height: 55px;
     width: 100%;
     font-size: 16px;
@@ -353,7 +360,7 @@ table {
 
 ::placeholder {
     color: #cac7ff;
-    
+
 }
 
 .subscribe_btn {
@@ -380,6 +387,7 @@ table {
     opacity: .6;
 
 }
+/* footer section styles */
 
 hr {
     margin: 32px 0;
