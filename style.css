@@ -284,7 +284,7 @@ time {
 }
 
 .donate_card:hover {
-    background-color: #C6E4D6;
+    background-color: #6dd3a3;
 }
 
 .card_color {
@@ -304,13 +304,15 @@ time {
     height: 55px;
     margin: 32px 0;
     font-size: 16px;
+    outline: none;
     border: none;
     padding: 0 20px;
+    text-align: center;
 
 }
 
 
-::placeholder {
+.input_field::placeholder {
     text-align: center;
     color: #cac7ff;
 }
@@ -331,25 +333,30 @@ time {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
-.table_input {
-    padding: 14px 500px 14px 0px;
+.table_input{
+    height: 55px;
+    width: 100%;
     font-size: 16px;
     border: none;
     border-right: none;
     border-radius: 5px 0 0 5px;
     outline: none;
+    padding-left: 20px;
 
 }
 
 ::placeholder {
     color: #cac7ff;
+    
 }
 
 .subscribe_btn {
-    padding: 14px 18px;
-    font-size: 15px;
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
     font-weight: 600;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -361,7 +368,6 @@ table {
 .subscribe_btn:hover {
     background: #5df0ae;
     color: #006A50;
-
 
 }
 
