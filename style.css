@@ -21,6 +21,10 @@ body {
     color: #0E0E0E;
 }
 
+.text_center {
+    text-align: center;
+}
+
 .btn_primary {
     color: #006A50;
     border: 2px solid #006A50;
@@ -28,6 +32,19 @@ body {
     border-radius: 10px;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.btn_active:hover {
+    background-color: #006A50;
+    color: #F1F1F3;
+
+}
+
+.btn:hover {
+    color: #006A50;
+    border: 2px solid #006A50;
+    background-color: #F1F1F3;
 }
 
 nav {
@@ -38,7 +55,9 @@ nav {
 
 .logo,
 .color_1,
-.news_title {
+.news_title,
+.donate_title,
+.subscribe_title {
     font-size: 40px;
     font-weight: bold;
 }
@@ -93,7 +112,9 @@ nav {
 .future_content,
 .card_description,
 .news_description,
-.news_content {
+.news_content,
+.donate_content,
+.subscribe_content {
     margin: 32px 0;
     font-size: 16px;
     font-weight: 400;
@@ -146,12 +167,27 @@ nav {
     background-color: #5490F5;
 }
 
+.btn1:hover {
+    background: #011230;
+    color: #5490F5;
+}
+
 .btn2 {
     background-color: #09A15C;
 }
 
+.btn2:hover {
+    background: #002213;
+    color: #69c29a;
+}
+
 .btn3 {
     background-color: #FFC239;
+}
+
+.btn3:hover {
+    background: #5d4102;
+    color: #f9d47c;
 }
 
 /* news section styles */
@@ -166,7 +202,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .news_img img {
@@ -196,4 +232,126 @@ time {
 
 .news_column {
     margin-left: 48px;
+}
+
+/* donate section styles */
+.donate_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 80px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .8;
+    border: 1px solid #d3d3d3;
+}
+
+.donate_card:hover {
+    background-color: #C6E4D6;
+}
+
+.card_color {
+    background-color: #C6E4D6;
+}
+
+.donate_title {
+    margin-top: 80px;
+}
+
+.donate_content {
+    padding: 0 70px;
+}
+
+.input_field input {
+    width: 1020px;
+    height: 55px;
+    margin: 32px 0;
+    font-size: 16px;
+    border: none;
+    padding: 0 20px;
+
+}
+
+
+::placeholder {
+    text-align: center;
+    color: #cac7ff;
+}
+
+/* subscribe section styles */
+.subscribe {
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    padding: 80px 265px;
+    margin: 80px 0;
+}
+
+.subscribe_field {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table_input {
+    padding: 14px 500px 14px 0px;
+    font-size: 16px;
+    border: none;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.subscribe_btn {
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #006A50;
+    color: #F1F1F3;
+    cursor: pointer;
+}
+
+.subscribe_btn:hover {
+    background: #5df0ae;
+    color: #006A50;
+
+
+}
+
+.subscribe_end {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .6;
+
+}
+
+hr {
+    margin: 32px 0;
+}
+
+.social_icon {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
