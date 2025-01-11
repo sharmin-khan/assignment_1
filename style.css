@@ -189,7 +189,39 @@ nav {
     background: #5d4102;
     color: #f9d47c;
 }
+.blog_quote{
+    background-color: #ffffff;
+    padding:24px;
+    margin-top: 32px;
+    border-radius: 10px;
+    border: 1px solid #cac7ff;
+}
+.blog_detail{
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    padding: 24px 0;
+}
+.blog_content{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: .6;
+    line-height: 23px;
 
+}
+.name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0E0E0E;
+    opacity: .8;
+    margin: 12px 0;
+}
+.designation{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: .6;
+}
 /* news section styles */
 
 .news_container {
